@@ -1,0 +1,12 @@
+<main class="section-one">
+  <section class="card">
+      <form [formGroup]="formBany" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="nome">Digite seu nome:</label>
+          <input type="text" class="form-control" name="name" id="nome" formControlName="nome" required>
+        </div>
+        <input type="submit" class="btn btn-danger" value="Validar">
+      </form>
+  </section>
+  <app-toasts></app-toasts>
+</main>
