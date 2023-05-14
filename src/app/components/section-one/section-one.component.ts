@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 export class SectionOneComponent implements OnInit {
 
   formBany!: FormGroup;
-  nomeDigitado: string = 'bany beatrice de almeida matias de souza'
+  nomeDigitado: string = 'Bany Beatrice De Almeida Matias De Souza'
   textoDanger: string = 'Rala daqui seu merda, essa homenagem não é pra você!';
 
     constructor(
